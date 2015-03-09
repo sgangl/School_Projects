@@ -1,17 +1,13 @@
 #include "stdafx.h"
-#include "Coffee.cpp"
+#include "BlackCoffee.h"
 
 /*Simple class of coffee with no other ingredients*/
-class BlackCoffee: public Coffee 
+double BlackCoffee::getCost()
 {
-public:
-	virtual double getCost()
-	{
-		return 1.0;
-	}
-	
-	virtual std::string getIngredients()
-	{
-		return "Coffee";
-	}
-};
+	return 1.0;
+}
+
+std::string BlackCoffee::getIngredients()
+{
+	return "Coffee";
+}

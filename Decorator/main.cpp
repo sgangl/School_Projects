@@ -5,10 +5,10 @@
  */
 
 #include "stdafx.h"
-#include "Coffee.cpp"
-#include "BlackCoffee.cpp"
-#include "MilkDecorator.cpp"
-#include "WhipDecorator.cpp"
+#include "Coffee.h"
+#include "BlackCoffee.h"
+#include "MilkDecorator.h"
+#include "WhipDecorator.h"
 
 using namespace std;
 

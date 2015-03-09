@@ -1,7 +1,5 @@
 #pragma once
-
-#include "Coffee.h"
-#include "stdafx.h"
+#include <string>
 
 class Coffee
 {
